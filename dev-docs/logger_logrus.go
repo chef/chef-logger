@@ -2,7 +2,7 @@
 
 package chef_logger
 
-import (
+/* import (
   log "github.com/sirupsen/logrus"
 )
 
@@ -39,3 +39,4 @@ func (l LogrusLogger) LogError(s string) error {
 func (l LogrusLogger) LogClose() error {
 	return nil
 }
+*/
