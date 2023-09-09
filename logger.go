@@ -50,6 +50,7 @@ can overwrite or split log files at certain size
 //	func variadicExample(s ...string) {
 //		fmt.Printf(s) - not println
 //	}
+//
 
 package chef_logger
 
