@@ -17,4 +17,4 @@ goreleaser release --snapshot --clean (local build test, needs a git tag or defa
 ### tag and release (make sure all files are pushed after tagging, and dist is empty, else --clean)
 git tag -a v0.1.0 -m "First release"
 git push origin v0.1.0
-goreleaser release
+goreleaser release --clean
