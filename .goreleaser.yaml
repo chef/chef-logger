@@ -7,12 +7,15 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 builds:
-  - env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-      - windows
-      - darwin
+- skip: true
+# libraries do not need this step since no main.go - https://goreleaser.com/errors/no-main/
+# builds:
+#  - env:
+#      - CGO_ENABLED=0
+#    goos:
+#      - linux
+#      - windows
+#      - darwin
 
 archives:
   - format: tar.gz
